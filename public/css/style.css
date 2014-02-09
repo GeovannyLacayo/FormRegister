@@ -1,0 +1,33 @@
+/*Formularios*/
+@import url(http://fonts.googleapis.com/css?family=Abel);
+body{
+	background-color: #C6B9AC;
+	font-family: 'Abel';
+	color: black;
+}
+header,nav{
+	width: 70%;
+	margin: 0 auto;
+}
+ul,li{
+	display: inline-block;
+}
+li{
+	background-color: #FFF;
+	padding: 5px;
+}
+li a{
+	text-decoration: none;
+}
+header,nav,ul,li,#content{
+	text-align: center;
+}
+#content{
+	width: 70%;
+	margin: 0 auto;
+	border: 1px solid #AB9886;
+	background-color: #FFF;
+	box-shadow: 3px 3px 50px 5px #AB9886;
+}
+#formbox{width: 500px;border: 2px solid #333; margin: 20px auto;}
+#formbox h3{color:#9d9e80; text-align: center; font-family: "Trebuchet MS";}
